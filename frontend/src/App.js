@@ -4,8 +4,8 @@ import LoginCard from './components/LoginCard';
 function App() {
   return (
     <div className="app-shell">
-      <header className="brand-heading" aria-label="Tecmantras">
-        <span>Tecmantras</span>
+      <header className="brand-heading" aria-label="Unitebrainz solutions pvt limited">
+        <span>Unitebrainz solutions pvt limited</span>
       </header>
       <div className="hero-panel">
         <p className="hero-pill">Secure workspace</p>
