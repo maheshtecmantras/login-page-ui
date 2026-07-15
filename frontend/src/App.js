@@ -4,8 +4,8 @@ import LoginCard from './components/LoginCard';
 function App() {
   return (
     <div className="app-shell">
-      <header className="brand-heading" aria-label="Boat">
-        <span>Boat</span>
+      <header className="brand-heading" aria-label="Mahesh">
+        <span>Mahesh</span>
       </header>
       <div className="hero-panel">
         <p className="hero-pill">Secure workspace</p>
