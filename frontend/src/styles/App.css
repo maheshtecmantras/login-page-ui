@@ -9,6 +9,24 @@
     #020617;
 }
 
+.brand-heading {
+  grid-column: 1 / -1;
+  text-align: center;
+  letter-spacing: 0.6rem;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  text-transform: uppercase;
+  color: rgba(248, 250, 252, 0.9);
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+
+.brand-heading span {
+  display: inline-block;
+  border-bottom: 2px solid rgba(59, 130, 246, 0.8);
+  padding-bottom: 0.45rem;
+}
+
 .hero-panel {
   padding: 2rem;
   border-radius: 28px;
@@ -61,5 +79,9 @@
 @media (max-width: 768px) {
   .app-shell {
     padding: 2rem 1.5rem;
+  }
+
+  .hero-metrics {
+    flex-wrap: wrap;
   }
 }
